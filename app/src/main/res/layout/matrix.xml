@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="?android:attr/colorControlHighlight"
+                    android:ems="3"
+                    android:hint="0"
+                    android:inputType="number|numberSigned|numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="?android:attr/colorControlHighlight"
+                    android:ems="3"
+                    android:hint="0"
+                    android:inputType="number|numberSigned|numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="?android:attr/colorControlHighlight"
+                    android:ems="3"
+                    android:hint="0"
+                    android:inputType="number|numberSigned|numberDecimal"
+                    android:selectAllOnFocus="false"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="?android:attr/colorControlHighlight"
+                    android:ems="3"
+                    android:hint="0"
+                    android:inputType="number|numberSigned|numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="?android:attr/colorControlHighlight"
+                    android:ems="3"
+                    android:hint="0"
+                    android:inputType="number|numberSigned|numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="?android:attr/colorControlHighlight"
+                    android:ems="3"
+                    android:hint="0"
+                    android:inputType="number|numberSigned|numberDecimal"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="?android:attr/colorControlHighlight"
+                    android:ems="3"
+                    android:hint="0"
+                    android:inputType="number|numberSigned|numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="?android:attr/colorControlHighlight"
+                    android:ems="3"
+                    android:hint="0"
+                    android:inputType="number|numberSigned|numberDecimal"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="?android:attr/colorControlHighlight"
+                    android:ems="3"
+                    android:hint="0"
+                    android:inputType="number|numberSigned|numberDecimal"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tableLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Matrix"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/MatrixButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Done" />
+
+</RelativeLayout>
