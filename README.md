@@ -27,8 +27,6 @@ Android-specific refactoring and quick fixes
 - Support for building android wear applications
 - Support for Google Cloud platform – This built in support allows integration with Google Cloud messaging and App Engine.
 
-Alternatively to using Android studio Eclipse could have been used, which was originally the official IDE for android development before android studio. Eclipse was enabled to develop android applications using the Android Development Tools (ADT) plugin. Netbeans also supports the development of android applications through plugins.
-
 4. C++: C++ is a statically-typed, free-form, (usually) compiled, multi-paradigm, intermediate-level general-purpose middle-level programming language.
 
 ## Matrix Operations 
